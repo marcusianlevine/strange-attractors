@@ -18,6 +18,22 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/strange-attractors/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://marcusianlevine.github.io/strange-attractors/feed.xml" title="strange attractors" /><link rel="shortcut icon" type="image/x-icon" href="/strange-attractors/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
 
 <script>
 function wrap_img(fn) {
@@ -73,7 +89,59 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+    <p>Software architect by day, <a href="https://en.wikipedia.org/wiki/Glossary_of_jive_talk">hepcat</a> by night.</p>
+
+<p>At heart, I’m a life-long learner. I spend my time cultivating my hobbies
+and learning as much as possible.</p>
+
+<p>I am strangely attracted to:</p>
+
+<ul>
+  <li>complex systems</li>
+  <li>swing dancing</li>
+  <li>philosophy</li>
+  <li>data engineering</li>
+  <li>traditional jazz</li>
+  <li>fundamental physics</li>
+  <li>distributed systems</li>
+  <li>vintage fashion</li>
+  <li>investing</li>
+  <li>urban design</li>
+  <li>foraging</li>
+  <li>fermenting</li>
+  <li>cooking</li>
+  <li>feldenkrais method</li>
+</ul>
+
+<h2 id="purpose">Purpose</h2>
+
+<p>Recently, I’ve been trying to reconnect with my childlike wonder at the physical
+world, and pick up the thread of my abandoned scientific and philosophical training.</p>
+
+<p>After graduating from college with a double major in astrophysics and philosophy,
+I had initially planned to pursue a traditional academic careerpath:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PhD =&gt; postdoc =&gt; tenure
+</code></pre></div></div>
+
+<p>However, as I learned more about the trials and tribulations of academic success,
+I quickly became disenchanted with the pyramid scheme of tenure. I began to
+understand that there were too many PhD applying for too few positions for
+me to stand out without giving up the best years of my life and specializing
+to such an extent that I may lose touch with my generalist curiosity.</p>
+
+<p>Instead, I went into the private sector, inadvertently ending up at the
+intersection of data science and DevOps, just as both fields took off.</p>
+
+<p>This blog is my attempt to contribute some of my scant learnings
+back to the world, unburdened by the confines of academia, in whatever erratic
+form they happen to take.</p>
+
+<p>Hopefully someone, at some point, finds value in these disjointed ramblings.</p>
+
+<h2 id="how-its-made">How It’s Made</h2>
+
+<p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
@@ -108,7 +176,7 @@ window.onload = wrap_img;
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/marcusianlevine" title="marcusianlevine"><svg class="svg-icon grey"><use xlink:href="/strange-attractors/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/marcuslevine" title="marcuslevine"><svg class="svg-icon grey"><use xlink:href="/strange-attractors/assets/minima-social-icons.svg#linkedin"></use></svg></a></li><li><a rel="me" href="https://twitter.com/marcusianl" title="marcusianl"><svg class="svg-icon grey"><use xlink:href="/strange-attractors/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/marcusianlevine" title="marcusianlevine"><svg class="svg-icon grey"><use xlink:href="/strange-attractors/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/marcuslevine" title="marcuslevine"><svg class="svg-icon grey"><use xlink:href="/strange-attractors/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
 </div>
 
   </div>
